@@ -1,61 +1,201 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=REM:ital,wght@1,300&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 :root{
     --background-color:#4246EF;
     --cor02: #030457;
     --cor03: #0508A3;
 }
+
 body{
     background-color: var(--cor02);
     font-family: 'REM', sans-serif;
 }
 
- .menu{
+
+.parte-1{
+width: 30%;
+height: 80%;
+float: left;
+color: aqua;
+}
+
+section{
+width: 30%;
+height: 90%;
+float: left;
+border-left: 1px;
+border-right: 1px;
+border-top: 0px;
+border-bottom: 0px;
+border-color: rgba(255, 255, 255, 0.459);
+border-style: solid;
+box-shadow:  inset 1px 1px 3px 3px rgba(255, 255, 255, 0.11) ;
+color: white;
+overflow-y: scroll;
+}
+
+section::-webkit-scrollbar {
+    width: 12px; 
+}
+
+#texto{
+    background-color: aqua;
+}
+
+.menu{
     margin: 2px;
     list-style: none;
  }
+
 .menu > li{
     color: rgb(255, 255, 255);
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-right: 80%;
+    margin-right: 170px;
     border-radius: 10px;
     font-size: large;
 }
+
 .menu > li:hover{
     background-color: rgba(255, 255, 255, 0.103);
 }
-.Tweet{
+
+.Tweettar{
     background-color: var(--background-color);
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 10%;
-    padding-left: 5%;
-    margin-right: 95%;
-    margin-left: 3%;
+    margin-right: 210px;
+    margin-left: 40px;
     border-radius: 10px;
     list-style: none;
+    color:#aaabf3;
 }
-.conteudo{
-    display: flex;
-    justify-content: center;
 
-}
 i{
    padding-right:10px; 
 }
-img{
+
+.imagem{
     width: 50px;
-    border-radius: 30px;
+    padding-right: 20px;
+    padding-left: 10px;
 }
+
 .Foto-perfil{
     list-style-type: none;
     color: azure;
 }
+
 .Foto-perfil > li{
+    display: flex;
+    align-items: center;
     padding-top: 10px;
     padding-left: 10px;
+    margin-right: 180px;
     margin-top: 30px;
+    border-radius: 10px;
 }
+
+.Foto-perfil > li:hover{
+    background-color: rgba(255, 255, 255, 0.178);
+}
+
+.texto{
+    width: 600px;
+    height: 595px;
+}
+
+.div-3{
+    float: right;
+    width: 21%;
+    padding-left: 10px;
+    height: 595px;
+    color: white;
+    margin-bottom: -20px;
+}
+
+.icone{
+    width: 9%;
+    margin-left: 100px;
+}
+.inicio > h1{
+text-align: left;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+padding-left: 12px;
+padding-bottom: 30px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-top:0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: white;
+    border-style: solid;
+    margin-right: -20px;
+}
+nav > span {
+    padding-right: 18%;
+    padding-left: 18%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+nav > span:hover{
+    background-color: rgba(255, 255, 255, 0.219);
+}
+.foto-do-tweet {
+    width: 45px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Tweet{
+   display: flex;
+   flex-direction: row;
+   padding-bottom: 10px;
+   margin-right: -20px;
+   border-left: 0px;
+   border-right: 0px;
+   border-top:0px;
+   border-bottom: 1px;
+   border-color: white;
+   border-style: solid;
+
+}
+ .Tweet > p{
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.publicar{
+    background-color: #4246EF;
+    display: inline-flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+ 
+}
+
+.postagens{
+    text-align: center;
+    color: white;
+    margin: 70px;
+    padding: 70px;
+    border-style: dashed;
+    border-color: rgb(1, 80, 250);
+    border-width: 4px;
+}
+
+
+
 
