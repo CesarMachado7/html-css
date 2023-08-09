@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Flexbox</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            background-color: lightseagreen;
+            padding: 20px;
+        
+            display: flex;
+            justify-content: space-around;
+            align-items:stretch; 
+    
+
+        }
+        .container-flex{
+            width: 200px;
+            margin: 20px;
+            border: 4px solid lawngreen;
+            background: rgb(62, 62, 187);
+            
+        }
+        .iten-1{
+            min-height: 100px;
+        }
+        .iten-2{
+            min-height: 200px;
+        }
+        .iten-3{
+            min-height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-flex iten-1"></div>
+        <div class="container-flex iten-2"></div>
+        <div class="container-flex iten-3"></div>
+    </div>
+    
+</body>
+</html>
