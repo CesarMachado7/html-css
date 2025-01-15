@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container{
+       background-color: aqua;
+        
+       display: flex;
+       flex-flow: row wrap ;
+    
+        }
+
+        .iten{
+            background-color: rgb(21, 247, 77);
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            
+
+        }
+
+        div#i1{
+         order:1;       
+        }
+
+        div#i2{
+         order:-3;           
+        }
+        
+        div#i3{
+         order:-5;    
+        }
+        
+        div#i4{
+        order:3;    
+        }
+         
+        div#i5{
+        order:-2;    
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+      <div class="iten" id="i1">A</div>
+      <div class="iten" id="i2">B</div>
+      <div class="iten" id="i3">C</div>
+      <div class="iten" id="i4">D</div>
+      <div class="iten" id="i5">E</div>
+
+    </div>
+    
+</body>
+</html>
